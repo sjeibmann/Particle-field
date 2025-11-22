@@ -175,7 +175,7 @@ class ParticleField {
         // Keep existing particles if possible to avoid flickering
         const oldParticles = this.particles.slice();
         // Doubled the particle count by changing the divisor from 2500 to 1250
-        const newParticleCount = Math.floor((window.innerWidth * window.innerHeight) / 625);
+        const newParticleCount = Math.floor((window.innerWidth * window.innerHeight) / 450);
         this.particles = [];
         
         for (let i = 0; i < newParticleCount; i++) {
