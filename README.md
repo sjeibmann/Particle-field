@@ -8,15 +8,14 @@ Ember-like particle field rendered on an HTML5 canvas. Particles drift with flui
 - Subtle fluid motion with friction, Brownian drift, and spring return to home positions
 - Mouse/touch interaction: particles repel by default and attract while the button/press is held
 - Adjustable particle density based on viewport size
-- Lightweight Python HTTP server for quick local previews
+- Lightweight Python HTTP server for quick local git previews
 
 ## Project Structure
 
 ```
 ├─ index.html      # Canvas container and script entry point
 ├─ particles.js    # Particle + ParticleField classes and animation loop
-├─ server.py       # Simple Python http.server launcher (port 8000)
-└─ .vscode/        # Optional editor configuration
+└─ server.py       # Simple Python http.server launcher (port 8000)
 ```
 
 ## Getting Started
