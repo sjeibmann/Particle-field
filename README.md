@@ -1,5 +1,7 @@
 # Particle Field
 
+![Particle Field](.pics/particle-field.png)
+
 Ember-like particle field rendered on an HTML5 canvas. Particles drift with fluid behavior, glow with animated gradients, and react to pointer input (repel vs attract while pressed) to simulate a rock disturbing a stream.
 
 ## Features
